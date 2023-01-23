@@ -8,3 +8,4 @@ def list_projects(request):
         'projects_object': projects,
     }
     return render(request, 'projects/list_projects.html', context)
+
